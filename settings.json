@@ -1,0 +1,50 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "use_system_window_tabs": true,
+  "agent_servers": {},
+  "terminal": {
+    "working_directory": "current_file_directory",
+    "show_count_badge": true,
+    "dock": "right",
+    "option_as_meta": true,
+  },
+  "semantic_tokens": "combined",
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+    "enable_feedback": false,
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Gruvbox Dark Hard",
+  },
+  "auto_install_extensions": {
+    "dart": true,
+    "toml": true,
+    "ruff": true,
+  },
+}

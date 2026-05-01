@@ -43,6 +43,13 @@
   "use_system_window_tabs": false,
   "agent_servers": {},
   "terminal": {
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "copy_on_select": true,
+    "shell": {
+      "program": "sh"
+    },
     "working_directory": "current_project_directory",
     "show_count_badge": true,
     "dock": "right",

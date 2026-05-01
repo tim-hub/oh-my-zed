@@ -35,7 +35,7 @@
     "model_parameters": [],
     "enable_feedback": false,
   },
-  "ui_font_size": 16,
+  "ui_font_size": 18,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
@@ -46,5 +46,71 @@
     "dart": true,
     "toml": true,
     "ruff": true,
+  },
+
+  // ── Git ────────────────────────────────────────
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 600,
+      "show_commit_summary": true,
+    },
+    "gutter": {
+      "diff_symbols": true,
+    },
+  },
+
+  // ── Language-specific overrides ────────────────
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff", "pyright"],
+      "formatter": {
+        "language_server": { "name": "ruff" },
+      },
+      "format_on_save": "on",
+      "tab_size": 4,
+    },
+    "Dart": {
+      "tab_size": 2,
+      "format_on_save": "on",
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "format_on_save": "on",
+    },
+    "JavaScript": {
+      "tab_size": 2,
+      "format_on_save": "on",
+    },
+    "JSON": {
+      "tab_size": 2,
+    },
+    "TOML": {
+      "tab_size": 2,
+    },
+  },
+
+  // ── LSP settings ───────────────────────────────
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 88,
+          "lint": {
+            "select": ["E", "F", "I"],
+          },
+        },
+      },
+    },
+    "pyright": {
+      "settings": {
+        "python": {
+          "analysis": {
+            "typeCheckingMode": "basic",
+            "autoImportCompletions": true,
+          },
+        },
+      },
+    },
   },
 }

@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "provider": "copilot"
+  },
   "proxy": "",
   "bottom_dock_layout": "contained",
   "status_bar": {
@@ -27,7 +30,7 @@
   "search": {
     "case_sensitive": false,
   },
-  "soft_wrap": "prefer_line",
+  "soft_wrap": "editor_width",
   "minimap": {
     "show": "auto",
   },
@@ -47,9 +50,7 @@
       "breadcrumbs": true
     },
     "copy_on_select": true,
-    "shell": {
-      "program": "sh"
-    },
+    "shell": "system",
     "working_directory": "current_project_directory",
     "show_count_badge": true,
     "dock": "right",

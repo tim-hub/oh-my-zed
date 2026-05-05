@@ -74,6 +74,7 @@
   },
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "agent": {
+    "sidebar_side": "right",
     "button": false,
     "dock": "right",
     "favorite_models": [],

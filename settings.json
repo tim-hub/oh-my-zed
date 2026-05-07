@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "auto_update": false,
+  "disable_ai": true,
   "edit_predictions": {
     "provider": "copilot"
   },
@@ -20,7 +22,7 @@
   },
   "max_tabs": 10,
   "tabs": {
-    "close_position": "left",
+    "close_position": "right",
     "file_icons": true,
     "git_status": true,
   },

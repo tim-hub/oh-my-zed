@@ -52,7 +52,9 @@
       "breadcrumbs": true
     },
     "copy_on_select": true,
-    "shell": "system",
+    "shell": {
+      "program": "fish"
+    },
     "working_directory": "current_project_directory",
     "show_count_badge": true,
     "dock": "right",

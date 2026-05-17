@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_ui_font_size": 16.0,
+  "agent_buffer_font_size": 14.0,
+  "ui_font_weight": 450.0,
+  "scrollbar": {
+    "show": "auto"
+  },
+  "cli_default_open_behavior": "new_window",
   "auto_update": false,
   "disable_ai": true,
   "edit_predictions": {
@@ -34,7 +41,7 @@
   },
   "soft_wrap": "editor_width",
   "minimap": {
-    "show": "auto",
+    "show": "never",
   },
   "which_key": {
     "enabled": true,
@@ -85,8 +92,8 @@
     "model_parameters": [],
     "enable_feedback": false,
   },
-  "ui_font_size": 18,
-  "buffer_font_size": 15,
+  "ui_font_size": 17.0,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "dark",
     "light": "One Light",

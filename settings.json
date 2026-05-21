@@ -7,21 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_line_height": "comfortable",
   "centered_layout": {
     "right_padding": 0.1,
-    "left_padding": 0.1
+    "left_padding": 0.1,
   },
   "agent_ui_font_size": 16.0,
   "agent_buffer_font_size": 14.0,
   "ui_font_weight": 450.0,
   "scrollbar": {
-    "show": "auto"
+    "show": "auto",
   },
   "cli_default_open_behavior": "new_window",
   "auto_update": false,
   "disable_ai": true,
   "edit_predictions": {
-    "provider": "copilot"
+    "provider": "copilot",
   },
   "proxy": "",
   "bottom_dock_layout": "contained",
@@ -37,11 +38,13 @@
   },
   "max_tabs": 10,
   "tabs": {
+    "show_close_button": "hover",
     "close_position": "right",
-    "file_icons": true,
+    "file_icons": false,
     "git_status": true,
   },
   "tab_bar": {
+    "show_tab_bar_buttons": true,
     "show_pinned_tabs_in_separate_row": false,
     "show_nav_history_buttons": false,
     "show": true,
@@ -69,11 +72,12 @@
     "font_weight": 400.0,
     "font_size": 14.0,
     "toolbar": {
-      "breadcrumbs": true
+      "breadcrumbs": true,
     },
+    "cursor_shape": "bar",
     "copy_on_select": true,
     "shell": {
-      "program": "fish"
+      "program": "fish",
     },
     "working_directory": "current_project_directory",
     "show_count_badge": true,

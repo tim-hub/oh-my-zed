@@ -65,6 +65,9 @@
   "use_system_window_tabs": false,
   "agent_servers": {},
   "terminal": {
+    "font_family": ".ZedMono",
+    "font_weight": 400.0,
+    "font_size": 14.0,
     "toolbar": {
       "breadcrumbs": true
     },

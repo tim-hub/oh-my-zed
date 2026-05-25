@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_font_family": "JetBrains Mono",
   "buffer_line_height": "comfortable",
   "centered_layout": {
     "right_padding": 0.1,
@@ -68,8 +69,9 @@
   "use_system_window_tabs": false,
   "agent_servers": {},
   "terminal": {
-    "button": true,
-    "font_family": ".ZedMono",
+    "flexible": false,
+	"button": true,
+    "font_family": "JetBrains Mono",
     "font_weight": 400.0,
     "font_size": 14.0,
     "toolbar": {

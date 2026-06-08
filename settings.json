@@ -21,7 +21,7 @@
   },
   "cli_default_open_behavior": "new_window",
   "auto_update": false,
-  "disable_ai": true,
+  "disable_ai": false,
   "edit_predictions": {
     "provider": "copilot",
   },
@@ -70,7 +70,7 @@
   "agent_servers": {},
   "terminal": {
     "flexible": false,
-	"button": true,
+    "button": true,
     "font_family": "JetBrains Mono",
     "font_weight": 400.0,
     "font_size": 14.0,
@@ -105,6 +105,7 @@
   },
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "agent": {
+    "play_sound_when_agent_done": "when_hidden",
     "sidebar_side": "right",
     "button": false,
     "dock": "right",

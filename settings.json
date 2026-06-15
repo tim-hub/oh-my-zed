@@ -21,7 +21,7 @@
   },
   "cli_default_open_behavior": "new_window",
   "auto_update": false,
-  "disable_ai": false,
+  "disable_ai": true,
   "edit_predictions": {
     "provider": "copilot",
   },

@@ -23,6 +23,7 @@
   "auto_update": false,
   "disable_ai": false,
   "edit_predictions": {
+    "mode": "subtle",
     "provider": "copilot",
   },
   "proxy": "",
@@ -69,11 +70,11 @@
   "use_system_window_tabs": false,
   "agent_servers": {
     "opencode": {
-      "type": "registry"
+      "type": "registry",
     },
     "claude-acp": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "terminal": {
     "flexible": false,
@@ -119,6 +120,10 @@
     "favorite_models": [],
     "model_parameters": [],
     "enable_feedback": false,
+    "commit_message_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5.4-mini",
+    },
   },
   "ui_font_size": 17.0,
   "buffer_font_size": 14.0,

@@ -69,6 +69,9 @@
   },
   "use_system_window_tabs": false,
   "agent_servers": {
+    "pi-acp": {
+      "type": "registry"
+    },
     "opencode": {
       "type": "registry",
     },
